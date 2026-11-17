@@ -1,4 +1,14 @@
-# Cowboys vs. Wizards
+# Cowboys vs. Wizards · Retro Duel
+
+[Play the retro exchange](https://alejandro-publius.github.io/cowboys-vs-wizards-retro/)
+
+Watch the Wizard cast Singularity, pull the Sheriff across the board and take a return shot. The exchange lasts about four seconds and can be restarted or replayed. It is a single fight preview.
+
+To run it locally, run `python3 -m http.server 8000` from the repository root and open [localhost:8000/retro/](http://localhost:8000/retro/). GitHub Pages serves [the retro folder](retro/) as its site root.
+
+The board and character sprites are pixel renders of the original Cowboys vs. Wizards Tripo assets in [assets/models](assets/models). The muted woodland palette, scale and parchment caption draw on [Our Castle](https://github.com/alejandro-publius/our-castle). The 2D timing moves the complete sprites and places the spell, muzzle flash and tracer on the board. The original project's code and history are retained below.
+
+## Original project README
 
 **A haunted-Western card duel where gunslingers, skeletal armies and dragons fight across three 3D lanes.** Choose illustrated cards, sacrifice troops to summon stronger allies, and watch life orbs fall as the Wizard CPU answers.
 

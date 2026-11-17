@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111d20">
+  <title>Cowboys vs. Wizards · Retro Duel</title>
+  <link rel="stylesheet" href="./arena.css">
+  <script type="module" src="./duel.js"></script>
+</head>
+<body>
+  <main class="game">
+    <header class="masthead">
+      <span class="edition">Retro Duel</span>
+      <h1>Cowboys <em>vs.</em> Wizards</h1>
+    </header>
+    <figure class="battle">
+      <div class="arena">
+        <canvas id="duel" width="384" height="204" role="img"
+          aria-label="Pixel art duel. The Sheriff and Wizard face off between the Saloon and the Gateway."></canvas>
+      </div>
+      <figcaption>
+        <p id="beat" role="status">The Wizard and Sheriff face off.</p>
+        <button id="play" type="button" disabled>Play exchange</button>
+      </figcaption>
+    </figure>
+    <footer>
+      <a href="https://github.com/alejandro-publius/cowboys-vs-wizards-retro">Source &amp; credits</a>
+    </footer>
+  </main>
+</body>
+</html>
